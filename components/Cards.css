@@ -1,0 +1,40 @@
+.cards {
+    text-align: left;    
+    margin-top: 150px;
+}
+
+
+.cards p {    
+    color: #EFEDE8A6;
+}
+
+.cards-grid {
+    height: 190px;
+    margin-top: 50px;
+    border-radius: 10px;
+    text-align: left;    
+    background-color: #323443;
+    position: relative;
+    transition: all ease-in-out .2s;
+}
+
+.cards-grid:hover {
+    transform: scale(1.1);
+}
+
+.cards-title {    
+    font-weight: 600;
+    padding: 50px 40px 0 40px;
+}
+
+.cards-text {    
+    width: 60%;
+    color: #EFEDE8A6;
+    padding: 0px 40px;
+}
+
+.cards-icon {
+    position: absolute;
+    right: 35px;    
+    top: 90px;
+}
